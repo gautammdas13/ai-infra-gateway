@@ -1,0 +1,25 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Go
+gateway/bin/
+*.exe
+*.test
+
+# Python
+assistant/__pycache__/
+assistant/*.pyc
+assistant/.venv/
+assistant/venv/
+.env
+
+# macOS
+.DS_Store
